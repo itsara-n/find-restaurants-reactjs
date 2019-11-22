@@ -1,0 +1,12 @@
+.ProfilePage {
+    height: 100vh;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 600px;
+  }
+  
