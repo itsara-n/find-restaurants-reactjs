@@ -49,7 +49,7 @@ class Math extends PureComponent {
       <div className="MathPage">
         <Card style={{ width: '100%' }}>
           <Card.Body>
-            <Card.Title>Math</Card.Title>
+            <Card.Title style={{ fontSize: 28, fontWeight: 'bold' }}>Math</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
               X, 5, 9, 15, 23, Y, Z
             </Card.Subtitle>

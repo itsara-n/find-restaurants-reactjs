@@ -12,7 +12,7 @@ export const getXYZ = () => (dispatch) => {
     .catch(err => {
       dispatch({
         type: 'GET_MATH_FAILURE',
-        error: err.response.statusText || 'Something went wrong'
+        error: err.response ? err.response.statusText : 'Something went wrong'
       })
     })
 }

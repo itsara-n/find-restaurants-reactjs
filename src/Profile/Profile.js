@@ -12,7 +12,7 @@ class Profile extends Component {
       <div className="ProfilePage">
         <Card style={{ width: '100%' }}>
           <Card.Body>
-            <Card.Title>Profile</Card.Title>
+            <Card.Title style={{ fontSize: 28, fontWeight: 'bold' }}>Profile</Card.Title>
 
           </Card.Body>
         </Card>

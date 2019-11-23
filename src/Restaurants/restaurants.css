@@ -10,3 +10,59 @@
     max-width: 600px;
   }
   
+  .Loading {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .RenderRestaurant {
+    background-color: #f5f5f5;
+    width: 100%;
+    min-height: 200px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+
+  #RestaurantImage {
+    float: left;
+    width: 40%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  #RestaurantInfo{
+    float: right;
+    width: 60%;
+    background-color: darkgreen;
+    min-height: 200px;
+    padding: 20px;
+  }
+
+  #restaurantName {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  #restaurantPrice {
+    color: cadetblue;
+  }
+  
+  #restaurantRating {
+    color: tomato;
+  }
+
+  #restaurantOpen {
+    font-weight: 600;
+  }
