@@ -21,7 +21,7 @@
   background-color:#adadad;
 }
 
-.Footer p {
+.Footer>p {
   padding-top: 5px;
   color: white;
   text-align: center;

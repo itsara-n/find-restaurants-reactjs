@@ -1,12 +1,71 @@
 .ProfilePage {
-    height: 100vh;
-    margin-top: 20px;
-    padding: 20px;
-  }
-  
-  .card {
-    margin: 0 auto;
-    margin-bottom: 10px;
-    max-width: 600px;
-  }
-  
+  height: 100vh;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.ProfilePage p {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 0;
+}
+
+.card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  max-width: 600px;
+}
+
+.MyCV {
+  margin-top: 30px;
+}
+
+h5 {
+  font-weight: 700;
+}
+
+.Objective,
+.Education,
+.Experience,
+.Volunteer,
+.Skill,
+.Hobby,
+.Personal {
+  margin-bottom: 30px;
+}
+
+.Objective>p {
+  text-indent: 1.5em;
+  padding-left: 10px;
+}
+
+.MyInfo {
+  width: 100%;
+  display: flex;
+}
+
+.Subject {
+  float: left;
+  width: 30%;
+}
+
+.Subject>p {
+  float: right;
+  margin-right: 20px;
+}
+
+.Content {
+  float: right;
+  width: 70%;
+}
+
+.Title {
+  font-weight: 700;
+}
+
+.SubTitle {
+  font-weight: 600;
+}
