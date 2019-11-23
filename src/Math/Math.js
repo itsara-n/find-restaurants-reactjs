@@ -35,7 +35,7 @@ class Math extends PureComponent {
         }
         {
           !this.props.loading && (
-            <Card.Text>
+            <Card.Text style={{ fontWeight: 'bold' }}>
               {`Answers : ${this.props.answer}`}
             </Card.Text>
           )
