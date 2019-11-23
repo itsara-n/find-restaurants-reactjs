@@ -60,7 +60,7 @@ class Restaurants extends PureComponent {
     return (
       <div className="RestaurantsPage">
         {this.props.loading && this.renderLoading()}
-        <Card style={{ width: '200%' }}>
+        <Card style={{ width: '100%' }}>
           <Card.Body>
             <Card.Title style={{ fontSize: 28, fontWeight: 'bold' }}>Restaurants</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
